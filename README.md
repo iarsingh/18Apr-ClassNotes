@@ -24,3 +24,11 @@ DevOps course notes and hands-on labs covering Git, Docker, Jenkins, Ansible, Ku
 ## Repository contents
 
 This repository contains learning material or project files related to the topic described above.
+
+## Documentation checks
+
+Project architecture, interview guides, and local source links are checked automatically on pushes and pull requests. Run the same check locally:
+
+```bash
+python3 .github/scripts/validate_project_docs.py
+```
